@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Z Route Türkçe Rehber | SAD İttifakı • Sunucu 104</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div><div class="eyebrow">SAD İTTİFAKI • SUNUCU 104</div><h1>Z Route <em>Türkçe Rehber</em></h1><p>Günlük VS, gelişim, savaş ve başlangıç bilgileri.</p></div>
+  <div class="badge">TÜRKÇE<br>BİLGİ REHBERİ</div>
+</header>
+<nav>
+  <a href="#bugun">Bugün</a>
+  <a href="#bugun">VS Takvimi</a>
+  <a href="#kaynak">Kaynak</a><a href="#gelisim">Gelişim</a><a href="#savas">Savaş</a><a href="#baslangic">Başlangıç</a>
+</nav>
+<main>
+  <section id="bugun">
+    <div class="vsnotice">
+      <div class="vsnoticeicon">!</div>
+      <div>
+        <b>ÖNEMLİ • VS GÖREVLERİNİ GÜNÜNDE YAPIN</b>
+        <h2>Kaynaklarınızı doğru günde kullanın, daha fazla VS puanı kazanın.</h2>
+        <p>VS görevleri her gün farklı gelişim işlemlerine puan verir. Radar, inşaat, araştırma, kahraman geliştirme ve diğer kaynakları rastgele kullanmak yerine ilgili VS gününe kadar biriktirin. Böylece aynı kaynaklarla daha fazla puan kazanabilir, günlük VS sandıklarına daha kolay ulaşabilir ve ittifakımızın haftalık VS mücadelesine daha fazla katkı sağlayabilirsiniz.</p>
+        <strong>Biriktir → Doğru VS gününde kullan → Sandıkları al → Fazlasını sonraki uygun güne sakla.</strong>
+      </div>
+    </div>
+    <div class="gunlukvs">
+      <div class="vsust">
+        <div><span>HAFTALIK VS TAKVİMİ</span><strong>Günü seç</strong></div>
+        <div id="week" class="week inlineweek"></div>
+      </div>
+      <div id="serverWarWarning" class="warwarn" hidden>
+        <b>⚠ SUNUCU SAVAŞI UYARISI</b>
+        <strong>Cumartesi 10:00'dan önce kalkanınızı açın!</strong>
+        <p>Rakip sunucuya erişim Cumartesi 10:00'da açılır ve Pazar 05:00'te kapanır. Çevrimdışı olacaksanız 24 saatlik kalkan kullanmanız önerilir.</p>
+      </div>
+      <div class="day"><small id="date">BUGÜN</small><h2 id="dayTitle">VS bilgisi hazırlanıyor…</h2><p id="dayDesc"></p></div>
+      <div class="todaygrid"><article><b>BUGÜN YAP</b><ul id="doList"></ul></article><article><b>SAKLA</b><ul id="saveList"></ul></article></div>
+      <p class="note">Not: Etkinlik görevleri ve puan kaynakları sürüme göre değişebilir. Oyun içindeki güncel VS ekranını esas alın.</p>
+    </div>
+  </section>
+
+  <section id="kaynak"><div class="sectionhead"><span>KAYNAK YÖNETİMİ</span><h2>Doğru gün için biriktir</h2></div><div class="cards">
+    <article class="card"><h3>Hızlandırmalar</h3><p>İnşaat, araştırma, asker eğitimi ve iyileştirme hızlandırmalarını puan verdiği VS gününde kullan.</p></article>
+    <article class="card"><h3>Sandıklar</h3><p>VS puanı veren sandıkları ve geliştirme malzemelerini ihtiyaç yoksa ilgili güne kadar açmadan sakla.</p></article>
+    <article class="card"><h3>Radar</h3><p>Radar ödüllerini Radar puanı verilen günlere hazırlamak, aynı kaynaktan daha fazla VS puanı almanı sağlar.</p></article>
+    <article class="card"><h3>Son sandık sonrası</h3><p>Günlük son VS sandığını aldıysan ve ittifak sıralaması için ekstra puana ihtiyaç yoksa fazlalıkları sonraki uygun güne veya haftaya saklamak genellikle daha verimlidir.</p></article>
+  </div></section>
+
+  <section id="gelisim"><div class="sectionhead"><span>GELİŞİM</span><h2>Kaynakları dağıtma</h2></div><div class="cards">
+    <article class="card"><h3>Tek ana takım</h3><p>Erken ve orta oyunda Kahraman EXP, parça, beceri kitabı ve ekipmanı her kahramana dağıtmak yerine ana beşliye yoğunlaştır.</p></article>
+    <article class="card"><h3>Araştırma odağı</h3><p>Ana takımını güçlendiren araştırmalara öncelik ver. Kullanmadığın kahraman veya takım dallarına gelişigüzel kaynak harcama.</p></article>
+  </div></section>
+
+  <section id="savas"><div class="sectionhead"><span>SAVAŞ REHBERİ</span><h2>Savaşta dikkat edilecekler</h2></div><div class="cards">
+    <article class="card"><h3>Kıyamet Gözcüsü</h3><p>Rallide oyuncuların ekrandaki güçleri tek bir sayı hâlinde birleşmez. Katılan takımlar savaşa ayrı ayrı katkı verir; yeterli sayıda güçlü takım Gözcünün birliklerini daha hızlı tüketir.</p></article>
+    <article class="card"><h3>Sunucu Savaşı</h3><p>Rakip sunucuya erişim Cumartesi 10:00'da açılır ve Pazar 05:00'te kapanır. Çevrimdışı kalacaksan kalkanını Cumartesi 10:00'dan önce aç.</p></article>
+  </div></section>
+
+  <section id="baslangic"><div class="sectionhead"><span>BAŞLANGIÇ</span><h2>Yeni oyuncu için kısa yol</h2></div>
+    <ol class="steps"><li>Ana takımını belirle ve kaynaklarını önce bu beş kahramana yoğunlaştır.</li><li>Üs, araştırma ve asker gelişimini birlikte ilerlet.</li><li>VS gününe uygun kaynakları önceden biriktir.</li><li>İttifak etkinliklerine ve rallilere düzenli katıl.</li><li>Cumartesi sunucu savaşı için kalkan ve ışınlanma hazırlığını önceden yap.</li></ol>
+  </section>
+
+  <section class="policy"><b>REHBER POLİTİKASI</b><p>Bu sitede doğrulanamayan Güç hesapları, takım simülasyonları veya kesin yatırım sonucu veren araçlar kullanılmaz. Oyunun Türkçe arayüzündeki terimler esas alınır.</p></section>
+</main>
+
+<footer>SAD İttifakı • Sunucu 104<span>Oyuncular tarafından hazırlanan Türkçe rehberdir; oyunun resmî sitesi değildir.</span></footer>
+<script src="app.js"></script>
+</body></html>
